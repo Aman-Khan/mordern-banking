@@ -50,7 +50,7 @@ export const InsightsSection: React.FC = () => {
                             <InsightCard />
                         </div>
                         <div className="mt-8">
-                            <button className="flex items-center gap-2 text-[#00B4FD] font-chivo text-[14px] uppercase tracking-wider group">
+                            <button className="relative flex items-center gap-2 text-[#00B4FD] font-chivo text-[14px] uppercase tracking-wider group pb-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-6 after:h-[1.5px] after:bg-[#00B4FD] after:transition-all after:duration-300 hover:after:w-full">
                                 Read all insights <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                             </button>
                         </div>

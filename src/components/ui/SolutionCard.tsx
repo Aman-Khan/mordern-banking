@@ -17,7 +17,7 @@ export const SolutionCard: React.FC<SolutionCardProps> = ({ icon, title, descrip
         <div className="text-white/60">
           {icon}
         </div>
-        
+
         {badge && (
           <span className="font-chivo text-[14px] text-[#E9F4F9]/60 uppercase tracking-widest mt-2">
             {badge}
@@ -36,7 +36,7 @@ export const SolutionCard: React.FC<SolutionCardProps> = ({ icon, title, descrip
       </div>
 
       {/* Interactive Link */}
-      <button className="group flex items-center gap-2 font-chivo text-[14px] text-[#00B4FD] uppercase tracking-wider mt-2">
+      <button className="relative group flex items-center gap-2 font-chivo text-[13px] text-[#00B4FD] uppercase tracking-wider transition-colors pb-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-6 after:h-[1.5px] after:bg-[#00B4FD] after:transition-all after:duration-300 hover:after:w-full">
         Learn More
         <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
       </button>

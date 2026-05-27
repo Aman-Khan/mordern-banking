@@ -124,7 +124,7 @@ export const Footer: React.FC = () => {
               </div>
 
             </div>
-        <p className="text-[#566270] text-[12px] leading-[1.6] xl:max-w-[75%]">
+            <p className="text-[#566270] text-[12px] leading-[1.6] xl:max-w-[75%] py-12">
             Copyright © 2022 by Linktia Infosystems Limited — [CB7 and N7 as Commercial Brand] — [Registered under the Companies Act 2006 in England and Wales | Number of Incorporation 13100992]
           </p>
           </div>

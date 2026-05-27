@@ -24,7 +24,6 @@ function App() {
       <CTASection />
       <MarqueeSection /> 
       <DigitalBankingSection />
-      <CTASection />
       <InsightsSection />
       <CaseStudyCarousel />
       <CTASection />

@@ -45,7 +45,7 @@ export const SolutionsSection: React.FC = () => {
             ========================================= */}
         <div className="w-full lg:w-1/3 shrink-0">
           {/* Using 'sticky' so it floats alongside the user as they scroll the right column */}
-          <div className="lg:sticky lg:top-40 flex flex-col items-start">
+          <div className="lg:sticky flex flex-col items-start">
             <h2 className="font-archivo font-normal text-4xl lg:text-[44px] text-[#E9F4F9] leading-[1.2] tracking-tight mb-12">
               All of our solutions are<br />tailor-made to your needs
             </h2>
