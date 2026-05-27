@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bell, Copy, Plus, MoreHorizontal } from 'lucide-react';
+import { Bell, MoreHorizontal } from 'lucide-react';
 import toniAvatar from '../../assets/images/toni-avatar.svg'; // Update path as needed
 
 export const TotalBalanceCard: React.FC<{ className?: string, style?: React.CSSProperties }> = ({ className = '', style }) => {

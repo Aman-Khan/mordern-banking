@@ -1,4 +1,3 @@
-import React from 'react';
 import { Header } from './components/blocks/Header';
 import { HomeHero } from './components/blocks/HomeHero';
 import { MarqueeSection } from './components/blocks/MarqueeSection'; // <-- Import it here
